@@ -1,0 +1,110 @@
+{
+    "type": "ItemTurret"
+    "name": "[royal]Deathwish"
+    "description": "[royal]A Turret Capable Of Giving Death To Anything....The Required Wielders Of This Turret Must Have At Least 1 GB RAM...
+    
+    [red]Warning! Never Use This To Destroy Plated Walls!!!"
+    "health": 50000
+    "size": 8
+    "reload": 1
+    "recoil": 3
+    "shots": 3
+    "spread": 5
+    "heatColor": "70d7ff"
+    "shotWidth": 0
+    "targetGround": true,
+    "targetAir": true,
+    "range": 720
+    "burstSpacing": 1
+    "shootShake": 0.5
+    "shootSound": "shootBig",
+    "ammoUseEffect": "shellEjectBig",
+    "inaccuracy": 0,
+    "BlockGroup": "turrets",
+    "rotatespeed": 7,
+    "ammo": {
+        "copper": {
+          "speed": 20
+          "lifetime": 120
+          "damage": 76
+          "splashDamage": 50
+          "splashDamageRadius": 60
+          "knockback": 120
+          "backColor": "ffa400"
+          "frontColor": "ff5600"
+          "bulletWidth": 15
+          "bulletHeight": 27
+          "lightning": 5
+          "lightningLenght": 60
+          "fragBullets": 5
+          "fragBullet": {
+              "type": "missileBulletType"
+              "speed": 9
+              "lifetime": 180
+              "damage": 50
+              "explodeRange": 60
+              "splashDamage": 250
+              "splashDamageRadius": 300
+              "bulletWidth": 15
+              "bulletHeight": 25
+              "lightning": 5
+              "lightningLenght": 60
+              "homingPower": 120
+              "homingRange": 120
+              "fragBullets": 4
+              "fragBullet": {
+                "type": "missileBulletType"
+                "speed": 9
+                "damage": 50
+                "lifetime": 180
+                "splashDamage": 300
+                "splashDamageRadius": 300
+                "bulletHeight": 19
+                "bulletWidth": 8
+                "lightning": 5
+                "lightningLenght": 60
+                "homingPower": 120
+                "homingRange": 200
+                "fragBullets": 3
+                "fragBullet": {
+                  "type": "missileBulletType"
+                  "speed": 9
+                  "lifetime": 180
+                  "damage": 50
+                  "splashDamage": 300
+                  "splashDamageRadius": 300
+                  "bulletWidth": 9
+                  "bulletHeight": 12
+                  "homingRange": 200
+                  "homingPower": 1
+                  "fragbullets": 500
+                  "fragBullet": {
+                    "type": "liquidBulletType"
+                    "liquid": "slag"
+                    "lifetime": 0
+                    "statusDuration": 600
+                    "hitEffect": "hitLiquid"
+                    "knockback": 25
+                  }
+                }
+              }
+          }
+          "shootEffect": "shootBig2"
+          "hitSound": "explosion"
+          "smokeEffect": "shootBigSmoke"
+          "ammoMultiplier": 10
+          "status": "burning"
+          "statusDuration": 180
+       },}
+   "requirements": [
+      {"item": "copper", "amount": 800},
+      {"item": "graphite", "amount": 800},
+      {"item": "silicon", "amount": 800},
+      {"item": "titanium", "amount": 800},
+      {"item": "thorium", "amount": 800},
+      {"item": "metal-plate", "amount": 800}
+    ], 
+    "category": "turret",
+    "research": "spectre"
+   
+}
